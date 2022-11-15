@@ -1,0 +1,183 @@
+.text{
+    color: purple;
+    font-size: larger;
+    font-weight: bold;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+.firstdiv{
+    border-radius: 20px;
+    width: 33%;
+    height: auto;
+    background-color: rgb(241, 123, 26);
+    background-image: linear-gradient(to right,rgb(241, 123, 26) , purple);
+    opacity: 0.9;
+}
+.seconddiv{
+        border-radius: 20px;
+        width: 33%;
+        height: auto;
+        background-color: rgb(241, 123, 26);
+        background-image: linear-gradient(to right, rgb(241, 123, 26), purple);
+        opacity: 0.9;
+}
+.thirddiv{
+        border-radius: 20px;
+        width: 20%;
+        height: auto;
+        background-color: rgb(241, 123, 26);
+        background-image: linear-gradient(to right, rgb(241, 123, 26), purple);
+        opacity: 0.9;
+        position: relative;
+        overflow-x: hidden;
+}
+
+.thirddiv2{
+    width: 80rem;
+}
+.top{
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+}
+.name{
+    font-weight: bold;
+}
+.coursename{
+    color: white;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+.types{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.combinefirst,
+.combinesecond {
+    margin-top: 5px;
+    padding: 0px 10px;
+    color: white;
+    display: flex;
+    gap: 0.5rem;
+}
+.type{
+    letter-spacing: 1.7px;
+    padding: 5px 5px;
+    border: 1px solid white;
+    border-radius: 14px;
+}
+.amount{
+    margin-top: 10px;
+    color: white;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.amount1{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.combine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.scroll {
+    margin-right: 50px;
+    border: 2px solid rgb(240, 209, 153);
+    height: 20px;
+    border-radius: 4px;
+}
+.terms{
+    color: purple;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+@media screen and (max-width:760px){
+    .maindiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+    }
+    .firstdiv {
+        padding: 20px -3px;
+        width: 100%;
+            height: auto;
+            padding-bottom: 20px;
+    }
+    .top{
+        padding: 10px 9px;
+        margin: 0px;
+    }
+    .coursename{
+        margin-top: -4px;
+        padding-left: 10px;
+    }
+    .combinefirst, .combinesecond{
+        margin-top: 5px;
+        padding: 0px 10px;
+        color: white;
+        display: flex;
+        gap: 0.5rem;
+    }
+    .type{
+        padding: 5px 5px;
+        font-size: 0.8rem;
+        width: fit-content;
+        letter-spacing: 1px;
+    }
+    .seconddiv{
+        width: 100%;
+        height: auto;
+            padding-bottom: 20px;
+    }
+    .thirddiv{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .thirddiv2{
+        position: relative;
+        width: 100%;
+    }
+    /*.bottombody{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }*/
+    .text{
+        width: 100%;
+    }
+    .combine{
+        justify-content: space-between;
+    }
+    .scroll {
+        margin-right: 50px;
+        border: 2px solid rgb(240, 209, 153);
+        height: 20px;
+        border-radius: 4px;
+    }
+        .bottombody {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+        }
+}

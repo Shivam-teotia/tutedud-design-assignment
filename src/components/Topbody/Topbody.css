@@ -1,0 +1,23 @@
+.topbody{
+    margin-top: 3px;
+    font-family:"Roboto" ;
+    font-weight: 600;
+}
+.goback{
+    display: none;
+}
+@media screen and (max-width:760px) {
+    .goback {
+        margin-top: -10px;
+        /*border: 2px solid blue;*/
+        color: purple;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+    .topbody{
+        /*border: 2px solid black*/
+        font-size: small;
+        width: 100%;
+    }
+}

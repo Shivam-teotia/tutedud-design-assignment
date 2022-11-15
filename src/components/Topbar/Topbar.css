@@ -1,0 +1,80 @@
+.topbar{
+    /*border: 1px solid yellow;*/
+    height: 12%; 
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.topbarLeft{
+    height: 100%;
+    width: 30%;
+}
+.iconImage{
+    height: 90%;
+}
+.topbarRight{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    gap: 1.2rem;
+    align-items: center;
+    color: purple;
+}
+.myassignment{
+    font-size: 22px;
+    opacity: 0.28;
+    font-family: "Roboto";
+}
+.chatwithmentor{
+    font-size: 22px;
+    opacity: 0.28;
+    font-family: "Roboto";
+}
+.profilename{   
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.profilename1{
+    font-size: large;
+    font-weight: 700;
+}
+@media screen and (max-width:768px){
+    .myassignment{
+        display: none;
+    }
+    .chatwithmentor{
+        display: none;
+    }
+    .topbar{
+        /*border: 2px solid black;*/
+        width: 100%;
+        height: 10%;
+        /*min-height: 50px;*/
+        display: flex;
+        justify-content: space-between;
+    }
+    .profilename{
+        height: 35px;
+        border-radius: 12px;
+        color: white;
+        background-color: rgb(109, 18, 109);
+        padding: 0px 8px;
+    }
+    .profilename1{
+        font-size: 15px;
+    }
+    .icon{
+        display: none;
+    }
+    .iconImage{
+        height: 42px;
+    }
+    .topbarLeft{
+        /*border: 2px solid black;*/
+        height: 28px;
+        padding-top: 10px;
+        width: 25%;
+    }
+}
